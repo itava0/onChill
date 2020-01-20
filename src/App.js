@@ -108,7 +108,7 @@ function App() {
    };
 
 //Seach logic
-//First of all,  I'm assinging the filtered variable to allmovies then I'm checking if the user has input a value inside the search bar. If it's true, I'm filtering the items that includes the values on the searchquery.
+//First of all, I'm assinging the filtered variable to allmovies then I'm checking if the user has input a value inside the search bar. If it's true, I'm filtering the items that includes the values on the searchquery.
   const allMovies = movies;
   let filtered = allMovies;
 

@@ -7,7 +7,7 @@ export const moviesData = {
 
 export const queries = {
   popular:
-    "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=68f7e49d39fd0c0a1dd9bd094d9a8c75&page=",
+    "https://api.themoviedb.org/3/movie/popular?api_key=68f7e49d39fd0c0a1dd9bd094d9a8c75&language=en-US&page=",
   top_rated:
     "https://api.themoviedb.org/3/movie/top_rated?api_key=68f7e49d39fd0c0a1dd9bd094d9a8c75&page=",
   theaters:
