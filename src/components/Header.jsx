@@ -14,9 +14,6 @@ const Header = ({ value, onSearch, onValueSelect, sortValue }) => {
           value={value}
           onChange={e => onSearch(e.currentTarget.value)}
         />
-        <button disabled className="search__button">
-          <i className="search__icon fa fa-search" />
-        </button>
       </form>
       <Dropdown sortValue={sortValue} onValueSelect={onValueSelect} />
     </header>
