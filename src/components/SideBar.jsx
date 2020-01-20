@@ -34,7 +34,7 @@ const SideBar = ({ items, onItemSelect, selectedItem }) => {
         <div className="legal">
           &copy; 2020 by{" "}
           <a
-            href="https://gilbertrosario.com/"
+            href="https://itavarez.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="footer__link"
@@ -43,7 +43,7 @@ const SideBar = ({ items, onItemSelect, selectedItem }) => {
           </a>{" "}
           All rights reserved. View project on{" "}
           <a
-            href="https://github.com/Gilbert1391/Movie-Dashboard"
+            href="https://github.com/itava0/onChill"
             target="_blank"
             rel="noopener noreferrer"
             className="footer__link"
