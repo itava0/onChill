@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
 
-const MovieCard = ({ movies, showGenres }) => {
-  console.log(movies)
+const MovieCard = ({ movies, showGenres }) => { 
   return (
     <section className="flex-grid">
       {movies.map(movie => (
