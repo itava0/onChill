@@ -1,0 +1,45 @@
+// Mixin
+@mixin responsive($breakpoint) {
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content;
+    } // 900px
+  }
+}
+
+.search {
+  flex: 0 0 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+  &__input {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid black;
+    color: rgb(37, 37, 37);
+    padding: 0.7rem 2rem;
+    border-radius: 10rem;
+    width: 90%;
+    transition: all 200ms;
+    margin-right: -3rem;
+
+    @include responsive(tab-port) {
+      width: 100%;
+    }
+
+    &:focus {
+      width: 100%;
+      outline: none;
+    }
+
+    &::-webkit-input-placeholder {
+      color: #737783;
+      font-weight: 100;
+    }
+  }
+  
+}
