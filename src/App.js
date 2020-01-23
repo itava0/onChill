@@ -4,6 +4,7 @@ import { Route, Switch} from "react-router-dom";
 import { moviesData, queries, getData } from "./utils/movieService";
 import { getGenres } from "./utils/genreService";
 import Movies from "./components/Movies"
+import Dashboard from "./components/Dashboard"
 
 function App() {
   const [movies, setMovies] = useState([]);
@@ -126,6 +127,7 @@ function App() {
   return (
     <React.Fragment>
       <Switch>
+      <Route path="/movie/:id" component={Dashboard}/>
       <Route
                 path="/"
                 exact
