@@ -10,7 +10,6 @@ Besides filtering, sorting and searching, there are others features I implemente
 
 - lodash to create the pagination component
 - axios for the http request
-- react-toastify to show a message in the UI in case of unexpected errors
 - react-router-dom to handle routing
 - react-reveal for the fade in animation effect
 
