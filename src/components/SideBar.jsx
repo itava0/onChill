@@ -5,7 +5,7 @@ const SideBar = ({ items, onItemSelect, selectedItem }) => {
   return (
     <nav className="sidebar">
       <ul className="side-nav">
-        {items.map(item => (
+        {items.map((item) => (
           <li
             key={item.id}
             className={
