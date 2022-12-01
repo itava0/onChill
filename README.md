@@ -13,7 +13,6 @@ Besides filtering, sorting and searching, there are others features I implemente
 - react-router-dom to handle routing
 - react-reveal for the fade in animation effect
 
-there other libraries that I used but the listed above are the main ones, you can always see the rest in the package.json file.
 
 ## License
 
